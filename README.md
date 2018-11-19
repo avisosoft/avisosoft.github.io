@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## About us
 
-You can use the [editor on GitHub](https://github.com/avisosoft/github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Our company has been created back in 2007. Initial work was done in web development. Later we have moved to build mobile applications. Since 2015 main area of work is supervised learning.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Logistic Regression
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+Logistic Regression model computes a weighted sum of the input features (plus a bias term)
 
-- Bulleted
-- List
+$$\\hat{p} = h_\\theta(X) = \\sigma(\\theta ^ T * X)$$
 
-1. Numbered
-2. List
+The logistic or the logit, noted σ(·) is a sigmoid function that outputs a number between 0 and 1.
 
-**Bold** and _Italic_ and `Code` text
+$$\\sigma(t) = \\frac{1}{1 + \\exp ( - t )} $$
 
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/avisosoft/github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Contact us via e-mail: webmaster@avisosoft.com

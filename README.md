@@ -5,15 +5,21 @@ Our company has been created back in 2007. Initial work was done in web developm
 ### Logistic Regression
 
 ```markdown
+Syntax highlighted code block
 
-Logistic Regression model computes a weighted sum of the input features (plus a bias term)
+# Header 1
+## Header 2
+### Header 3
 
-$$\\hat{p} = h_\\theta(X) = \\sigma(\\theta ^ T * X)$$
+- Bulleted
+- List
 
-The logistic or the logit, noted σ(·) is a sigmoid function that outputs a number between 0 and 1.
+1. Numbered
+2. List
 
-$$\\sigma(t) = \\frac{1}{1 + \\exp ( - t )} $$
+**Bold** and _Italic_ and `Code` text
 
+[Link](url) and ![Image](src)
 ```
 
 ### Support or Contact

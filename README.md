@@ -4,22 +4,15 @@ Our company has been created back in 2007. Initial work was done in web developm
 
 ### Logistic Regression
 
-```markdown
-Syntax highlighted code block
+```python
+def loss_function(Y, A):
 
-# Header 1
-## Header 2
-### Header 3
+    """
+        calculates loss function
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+        L( y^, y) = - ( y * log(y^) + (1-y) * log(1- y^))
+    """
+    return - (Y * np.log(A) + (1 - Y) * np.log(1 - A))
 ```
 
 ### Support or Contact
